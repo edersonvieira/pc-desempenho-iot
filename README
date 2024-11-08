@@ -1,52 +1,60 @@
-# PC DESEMPENHO IOT
+```html
+<h1>PC DESEMPENHO IOT</h1>
 
-## Descrição
-PC DESEMPENHO IOT é uma aplicação executável em Python que monitora o uso de CPU, RAM e Ethernet do seu computador, enviando essas informações para um broker MQTT de sua escolha. A aplicação possui uma interface gráfica que exibe logs das informações enviadas e permite receber mensagens e alterar configurações de reporte através de tópicos de subscrição.
+<h2>Descrição</h2>
+<p>PC DESEMPENHO IOT é uma aplicação executável em Python que monitora o uso de CPU, RAM e Ethernet do seu computador, enviando essas informações para um broker MQTT de sua escolha. A aplicação possui uma interface gráfica que exibe logs das informações enviadas e permite receber mensagens e alterar configurações de reporte através de tópicos de subscrição.</p>
 
-## Funcionalidades
-- Monitoramento em tempo real de CPU, RAM e Ethernet
-- Envio de dados para broker MQTT configurável
-- Interface gráfica com exibição de logs
-- Recebimento de mensagens via MQTT
-- Alteração dinâmica das configurações de reporte
+<h2>Funcionalidades</h2>
+<ul>
+    <li>Monitoramento em tempo real de CPU, RAM e Ethernet</li>
+    <li>Envio de dados para broker MQTT configurável</li>
+    <li>Interface gráfica com exibição de logs</li>
+    <li>Recebimento de mensagens via MQTT</li>
+    <li>Alteração dinâmica das configurações de reporte</li>
+</ul>
 
-## Requisitos
-- Python 3.7+
-- Bibliotecas: paho-mqtt, psutil, tkinter
+<h2>Requisitos</h2>
+<ul>
+    <li>Python 3.7+</li>
+    <li>Bibliotecas: paho-mqtt, psutil, tkinter</li>
+</ul>
 
-## Instalação
-1. Clone o repositório:
-   ```
-   git clone https://github.com/edersonvieira/pc-desempenho-iot.git
-   ```
-2. Navegue até o diretório do projeto:
-   ```
-   cd pc-desempenho-iot
-   ```
-3. Instale as dependências:
-   ```
-   pip install -r requirements.txt
-   ```
+<h2>Instalação</h2>
+<ol>
+    <li>Clone o repositório:
+        <pre><code>git clone https://github.com/edersonvieira/pc-desempenho-iot.git</code></pre>
+    </li>
+    <li>Navegue até o diretório do projeto:
+        <pre><code>cd pc-desempenho-iot</code></pre>
+    </li>
+    <li>Instale as dependências:
+        <pre><code>pip install -r requirements.txt</code></pre>
+    </li>
+</ol>
 
-## Uso
-1. Execute o arquivo principal:
-   ```
-   python mian.py
-   ```
-2. Na interface gráfica, configure o endereço do broker MQTT e os tópicos de publicação/subscrição.
-3. Clique em "Iniciar Monitoramento" para começar a enviar dados.
-4. Você pode usar o executavel em dist, é necessario manter ico para trayicon funcionar.
+<h2>Uso</h2>
+<ol>
+    <li>Execute o arquivo principal:
+        <pre><code>python mian.py</code></pre>
+    </li>
+    <li>Na interface gráfica, configure o endereço do broker MQTT e os tópicos de publicação/subscrição.</li>
+    <li>Clique em "Iniciar Monitoramento" para começar a enviar dados.</li>
+    <li>Você pode usar o executavel em dist, é necessario manter ico para trayicon funcionar.</li>
+</ol>
 
-## Configuração
-- Broker MQTT: Insira o endereço IP ou hostname do seu broker MQTT.
-- Tópico de Publicação: Defina o tópico para onde os dados serão enviados.
-- Tópico de Subscrição: Defina o tópico para receber mensagens e alterações de configuração.
+<h2>Configuração</h2>
+<ul>
+    <li>Broker MQTT: Insira o endereço IP ou hostname do seu broker MQTT.</li>
+    <li>Tópico de Publicação: Defina o tópico para onde os dados serão enviados.</li>
+    <li>Tópico de Subscrição: Defina o tópico para receber mensagens e alterações de configuração.</li>
+</ul>
 
-## Logs
-A interface exibirá logs em tempo real das informações enviadas e recebidas.
+<h2>Logs</h2>
+<p>A interface exibirá logs em tempo real das informações enviadas e recebidas.</p>
 
-## Alteração de Configurações
-Envie mensagens para o tópico de subscrição para alterar as configurações de reporte, como intervalo de envio ou tipos de dados monitorados.
+<h2>Alteração de Configurações</h2>
+<p>Envie mensagens para o tópico de subscrição para alterar as configurações de reporte, como intervalo de envio ou tipos de dados monitorados.</p>
 
-## Contribuições
-Contribuições são bem-vindas! Por favor, abra uma issue para discutir mudanças propostas ou envie um pull request.
+<h2>Contribuições</h2>
+<p>Contribuições são bem-vindas! Por favor, abra uma issue para discutir mudanças propostas ou envie um pull request.</p>
+```
